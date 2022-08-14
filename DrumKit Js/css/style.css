@@ -1,6 +1,6 @@
 html {
     font-size: 10px;
-    background: url('../bg/bg2.jpg') bottom center;
+    background: url('../bg/bg1.jpg') bottom center;
     background-size: cover;
 }
 
@@ -8,6 +8,16 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+}
+
+body,h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 90px;
+    margin: 10px 20px;
+    padding: 12px 14px;
+    color: white;
+
 }
 
 .keys {
@@ -33,9 +43,9 @@ body, html {
 }
 
 .playing {
-    transform: scale(1.1);
-    border-color: #ffc600;
-    box-shadow: 0 0 10px #ffc600;
+    transform: scale(2.1);
+    border-color: #e727de;
+    box-shadow: 0 0 10px #e727de;
 }
 
 kbd {
@@ -47,5 +57,5 @@ kbd {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    color: #ffc600;
+    color: #e727de;
 }
